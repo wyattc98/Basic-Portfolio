@@ -1,12 +1,11 @@
 header {
     position: relative;
-    padding-bottom: 65px;
+    padding-bottom: 20px;
     border-bottom: 2px solid #ccc;
-    background-color: #fff;
+    background-color: black;
 }
 
 .wrapper {
-    width: 960px;
     margin: 0 auto;
     top: 0;
 }
@@ -44,7 +43,6 @@ nav li a {
 }
 
 section {
-    width: 960px;
     margin: 0 auto;
     background-color: #fff;
     padding-bottom: 25px;
