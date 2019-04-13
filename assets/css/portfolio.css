@@ -8,22 +8,28 @@ header {
 section {
     margin: 0  auto;
     background-color: #fff;
+    min-height: calc(100vh - 70px);
+
 }
 
-footer {
+p {    
+    font-family: 'Lora', serif;
+ }
+
+.footer {
+    height: 10vh;
     background-color: #777;
-    border-top: 30px;
-    
+    width: 100%;
 }
 
-footer p {
+.footer p {
     color: #fff;
     text-align: center;
     font-size: 12px;
     padding-top: 20px;
     padding-bottom: 20px;
 }
-
+/*
 .page-bottom {
     border-top: 5px solid #4aaaa5;
     padding: 25px;
@@ -34,8 +40,5 @@ footer p {
     width: 100%;
 
 }
+*/
 
-.box-container {
-   position: relative;
-   text-align: center;
-}

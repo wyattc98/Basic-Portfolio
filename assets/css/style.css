@@ -7,9 +7,11 @@ header {
 
 section {
     margin: 0  auto;
-    background-color: #fff;
+    /*background-color: #fff;*/
     padding-bottom: 25px;
-    line-height: 30px;
+    line-height: 30px;    
+    min-height: calc(100vh - 70px);
+
 }
 
 section p {
@@ -26,6 +28,8 @@ h1 {
 .main-container {
     position: relative;
     background-color: #fff;
+    min-height: calc(80vh - 70px);
+ 
 }
 
 .main-container::after {
@@ -42,14 +46,35 @@ img {
 }
 
 p {
+    font-family: 'Lora', serif;
     font-size: 20px;
-    color: #777;
+    color: black;
 }
 
-footer {
+.footer {
+    height: 15vh;
+    background-color: #777;
+    width: 100%;
+}
+
+.footer p {
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/*
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
     background-color: #777;
     border-top: 30px;
-    
+    height: 50px;
+    width: 100%;
+    overflow: hidden;
 }
 
 footer p {
@@ -59,14 +84,4 @@ footer p {
     padding-top: 20px;
     padding-bottom: 20px;
 }
-
-.page-bottom {
-    border-top: 5px solid #4aaaa5;
-    padding: 25px;
-}
-
-.bottom-wrap {
-    border-bottom: 0%;
-    width: 100%;
-
-}
+*/
