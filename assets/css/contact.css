@@ -11,6 +11,10 @@ section{
 
 }
 
+a {
+    font-family: 'Lora', serif;
+}
+
 h1 {
     color: #4aaaa5;
     border-bottom: 1px solid black;
