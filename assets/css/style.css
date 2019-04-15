@@ -23,12 +23,14 @@ h1 {
     color: #56a19e;
     border-bottom: 1px solid #777;
     padding-left: 30px;
+    font-family: 'Lora', serif;
+
 }
 
 .main-container {
     position: relative;
     background-color: #fff;
-    min-height: calc(80vh - 70px);
+    min-height: calc(70vh - 70px);
  
 }
 

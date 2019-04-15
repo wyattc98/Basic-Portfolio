@@ -12,6 +12,19 @@ section {
 
 }
 
+h1 {
+    color: #56a19e;
+    border-bottom: 1px solid #777;
+    padding-left: 30px;
+    font-family: 'Lora', serif;
+
+}
+
+a {
+    font-family: 'Lora', serif;
+    padding-left: 10vh;
+}
+
 p {    
     font-family: 'Lora', serif;
  }
