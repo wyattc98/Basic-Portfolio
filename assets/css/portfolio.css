@@ -29,6 +29,23 @@ p {
     font-family: 'Lora', serif;
  }
 
+ .box-1 p {
+     font-size: 22px;
+ }
+
+ .box-2 p {
+    font-size: 22px;
+}
+
+.box-3 p {
+    font-size: 22px;
+}
+
+.box-4 p {
+    font-size: 22px;
+}
+
+
 .footer {
     height: 10vh;
     background-color: #777;
